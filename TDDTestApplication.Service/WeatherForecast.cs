@@ -1,4 +1,4 @@
-namespace TDDTestApplication.API
+namespace TDDTestApplication.Service
 {
     public class WeatherForecast
     {

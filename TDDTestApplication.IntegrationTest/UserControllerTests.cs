@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using System.Net;
+using TDDTestApplication.DataAccessLayer.DataContext;
 using TDDTestApplication.IntegrationTest.Helpers;
 
 namespace TDDTestApplication.IntegrationTest

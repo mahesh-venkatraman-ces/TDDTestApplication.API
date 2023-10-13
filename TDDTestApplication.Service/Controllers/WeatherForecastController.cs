@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace TDDTestApplication.API.Controllers
+namespace TDDTestApplication.Service.Controllers
 {
     [ApiController]
     [Route("[controller]")]

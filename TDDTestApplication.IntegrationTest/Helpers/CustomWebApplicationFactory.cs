@@ -4,6 +4,7 @@ using System.Data.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Data.Sqlite;
+using TDDTestApplication.DataAccessLayer.DataContext;
 
 namespace TDDTestApplication.IntegrationTest.Helpers
 {

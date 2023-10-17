@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using TDDTestApplication.BusinessLayer.Services.Interfaces;
 using TDDTestApplication.BusinessLayer.Utilities.CustomExceptions;
+using TDDTestApplication.DataAccessLayer.Entities;
 using TDDTestApplication.DataAccessLayer.Repositories.Interfaces;
 using TDDTestApplication.DTO.DTOs;
 
@@ -8,10 +9,10 @@ namespace TDDTestApplication.BusinessLayer.Services
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IGenericRepository<User> _userRepository;
         private readonly IMapper _mapper;
 
-        public UserService(IUserRepository userRepository, IMapper mapper)
+        public UserService(IGenericRepository<User> userRepository, IMapper mapper)
         {
             _userRepository = userRepository;
             _mapper = mapper;

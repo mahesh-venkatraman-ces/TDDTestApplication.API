@@ -14,7 +14,7 @@ namespace TDDTestApplication.UnitTest.Services
     public class UserServiceTests
     {
         private readonly IUserService _userService;
-        private readonly Mock<IUserRepository> _userRepository;
+        private readonly Mock<IGenericRepository<User>> _userRepository;
         private readonly IMapper _mapper;
 
         public UserServiceTests()

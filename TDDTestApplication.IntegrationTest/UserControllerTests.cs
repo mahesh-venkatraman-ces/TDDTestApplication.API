@@ -29,7 +29,7 @@ namespace TDDTestApplication.IntegrationTest
             }
 
             // Act
-            var response = await _client.GetAsync("api/User/getusers");
+            var response = await _client.GetAsync("User/getusers");
 
             // Assert
             Assert.Equal(HttpStatusCode.Unauthorized, response.StatusCode);
